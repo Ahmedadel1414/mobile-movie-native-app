@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58b1e4bc-d8e7-47d1-a0ec-19405f0035df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deviceManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/Saved.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_mainLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/movies/[movieDetailsId].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MovieCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SearchBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/icons.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/images.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/interfaces.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/useFetch.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/images.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/readme/hero.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/readme/jsmpro.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/readme/videokit.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3Ch4qy4GyGmk6dqihD8fHBqTRGn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58b1e4bc-d8e7-47d1-a0ec-19405f0035df" name="Changes" comment="" />
+      <created>1776824663574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776824663574</updated>
+    </task>
+    <servers />
+  </component>
+</project>
