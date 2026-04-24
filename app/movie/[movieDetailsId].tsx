@@ -32,8 +32,6 @@ const MovieDetails = () => {
   const router = useRouter();
   const { movieDetailsId } = useLocalSearchParams();
 
-  console.log(movieDetailsId);
-
   const { data: movie, loading } = useFetch(() =>
     fetchMovieDetails(movieDetailsId as string),
   );
