@@ -16,11 +16,13 @@ export const UpdateSearchCount = async (query: string, movie: Movie) => {
     const result = await tablesDB.listRows({
       databaseId: DATABASE_ID,
       tableId: TABLE_ID,
-      queries: [Query.equal("searchTerm", query)],
+      queries: [Query.equal("movieId", movie.id.toString())],
     });
 
-    if (result.rows.length > 0) {
-      const existingMovie = result.rows[0];
+    const rows = result.rows ?? [];
+
+    if (rows && rows.length > 0) {
+      const existingMovie = rows[0];
 
       await tablesDB.updateRow({
         databaseId: DATABASE_ID,
@@ -44,6 +46,23 @@ export const UpdateSearchCount = async (query: string, movie: Movie) => {
         },
       });
     }
+  } catch (error) {
+    console.log(error);
+    throw error;
+  }
+};
+
+export const getTrendingMovies = async (): Promise<
+  TrendingMovie[] | undefined
+> => {
+  try {
+    const result = await tablesDB.listRows({
+      databaseId: DATABASE_ID,
+      tableId: TABLE_ID,
+      queries: [Query.limit(9), Query.orderDesc("count")],
+    });
+
+    return result.rows as unknown as TrendingMovie[];
   } catch (error) {
     console.log(error);
     throw error;
