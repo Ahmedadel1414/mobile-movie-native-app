@@ -42,7 +42,8 @@ app-example
 
 # generated native folders
 /ios
-/android
+/androids
 
-.idea
-.idea/*
+
+# idea
+.idea/
